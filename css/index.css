@@ -205,6 +205,7 @@ nav{
 .about-section{
     margin: 3%;
 }
+/*Galleries*/
 .gallery1{
     display: flex;
     justify-content: center;
@@ -214,4 +215,12 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.strategy, .how, .places, .collab{
+    margin: 5% 0;
+}
+button{
+    border-radius: 5px;
+    margin: 3% 0;
+    padding: 2%;
 }
