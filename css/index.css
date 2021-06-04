@@ -199,3 +199,19 @@ nav{
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
+
+/*ABOUT PAGE*/
+/*About*/
+.about-section{
+    margin: 3%;
+}
+.gallery1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
