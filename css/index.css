@@ -144,3 +144,27 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+a{
+    text-decoration:none;
+    color:#4f4f4f;
+}
+/*Header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 60%;
+} 
+.links{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.jumboImg{
+    padding: 4% 0;
+}
