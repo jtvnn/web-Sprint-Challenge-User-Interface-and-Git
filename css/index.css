@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,9 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+/* body {
 	line-height: 1;
-}
+} */
 ol, ul {
 	list-style: none;
 }
@@ -143,4 +143,84 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+a{
+    text-decoration:none;
+    color:#4f4f4f;
+}
+/*Header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 60%;
+} 
+.links{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.jumboImg{
+    padding: 4% 0;
+}
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+/*ABOUT PAGE*/
+/*About*/
+.about-section{
+    margin: 3%;
+}
+/*Galleries*/
+.gallery1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strategy, .how, .places, .collab{
+    margin: 5% 0;
+}
+button{
+    border-radius: 5px;
+    margin: 3% 0;
+    padding: 2%;
 }
